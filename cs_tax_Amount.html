@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript embbeded into HTML</title>
+    </head>
+<body>
+    <script type="text/javaScript">
+var netValue = prompt("Please insert net value!");
+var grossValue = netValue * 1.19;
+var taxAmount = grossValue - netValue;
+document.write("The net value is " + netValue + " EUR.<br>");
+document.write("The calculated gross value is " + grossValue.toFixed(2) + " EUR.<br>");
+document.write("The calculated taxes you have to pay are " + taxAmount.toFixed(2) + " EUR.<br>");           
+    </script>
+</body>
+</html>
